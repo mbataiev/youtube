@@ -1,0 +1,120 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+node_modules
+node
+# Node
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
+.DS_Store
+Thumbs.db
+# Папки и файлы, созданные Angular CLI
+/dist/
+/node_modules/
+
+# Файлы конфигурации
+/angular.json
+/tsconfig.json
+/tsconfig.app.json
+/tsconfig.spec.json
+
+# Конфигурационные файлы IDE
+/.idea/
+/.vscode/
+
+# Логи и отчеты о сборке
+*.log
+npm-debug.log*
+
+# Кэш NPM
+.npm
+
+# Кэш Angular CLI
+.codelyzer/
+
+# Локальные настройки
+src/environments/environment.ts
+src/environments/environment.prod.ts
+
+# Кеш Bazel
+/bazel-out/
+
+# Папка, используемая для временных файлов тестов
+karma-debug/
+
+# Папка с покрытием тестов
+/coverage/
+
+# Файлы среды
+.env
+.env.prod
+
+# Файл с настройками тестирования
+test.ts
+
+# Файлы для тестирования
+/spec.ts
+
+# Файлы локальных переводов
+/src/assets/i18n/*.json
+
+# Файлы конфигурации Docker
+Dockerfile
+docker-compose.yml
+
+# Файлы, создаваемые в процессе разработки
+.idea/
+.vscode/
+
+# Локальные настройки
+/.history
+
+# Мусорные файлы
+Thumbs.db
+.DS_Store
+
+# Временные файлы
+*~
+
+# Файлы резервных копий
+*.bak
+*.backup
+*.swp
+*.save
+
+# Логи Visual Studio Code
+/logs/
