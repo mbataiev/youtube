@@ -21,10 +21,10 @@ public class S3Service implements FileService {
     private final AmazonS3Client awsS3Client;
 
     /**
-     * Uploads a video file to Amazon S3 storage, assigns a unique key to it, and makes it publicly accessible.
+     * Uploads a file to Amazon S3 storage, assigns a unique key to it, and makes it publicly accessible.
      *
-     * @param file The video file to be uploaded.
-     * @return The URL of the uploaded video after it has been stored in Amazon S3.
+     * @param file The file to be uploaded.
+     * @return The URL of the uploaded file after it has been stored in Amazon S3.
      * @throws ResponseStatusException If there is an error during the file upload process.
      */
     @Override
