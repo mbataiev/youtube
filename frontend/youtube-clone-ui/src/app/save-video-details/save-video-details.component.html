@@ -41,7 +41,19 @@
                  (matChipInputTokenEnd)="add($event)"/>
         </mat-chip-grid>
       </mat-form-field>
-
+      <div>
+        <label for="inputGroupFile01">Upload thumbnail:</label>
+        <div class="custom-file">
+          <input type="file" class="custom-file-input" id="inputGroupFile01"
+                 aria-describedby="inputGroupFileAddon01" (change)="onFileSelected($event)">
+        </div>
+        <br/>
+        <div *ngIf="fileSelected">
+          <p>Selected File: {{selectedFileName}}</p>
+          <button mat-raised-button color="primary" type="submit" (click)="onUpload()">Upload</button>
+        </div>
+        <br>
+      </div>
       <div>
         <button type="submit" mat-raised-button color="primary">Save</button>
       </div>
