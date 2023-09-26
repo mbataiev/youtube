@@ -24,13 +24,15 @@ import {VgOverlayPlayModule} from "@videogular/ngx-videogular/overlay-play";
 import {VgControlsModule} from "@videogular/ngx-videogular/controls";
 import {VgCoreModule} from "@videogular/ngx-videogular/core";
 import {MatSnackBarModule} from "@angular/material/snack-bar";
+import { VideoPlayerComponent } from './video-player/video-player.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UploadVideoComponent,
     HeaderComponent,
-    SaveVideoDetailsComponent
+    SaveVideoDetailsComponent,
+    VideoPlayerComponent
   ],
   imports: [
     BrowserModule,
